@@ -149,6 +149,14 @@ export default function About() {
                 </a>
                 {' '}— an AI-operated local media network that reimagines how communities get their news, combining editorial judgment with AI infrastructure at scale. It represents the convergence of everything he&apos;s built: the IP rigor of Vringo, the media M&amp;A playbook of Recurrent, and a belief that AI can make quality journalism economically viable at the local level.
               </p>
+
+              <p>
+                Andrew is a member of{' '}
+                <a href="https://www.ypo.org" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  YPO (Young Presidents&apos; Organization)
+                </a>
+                , the global leadership community of chief executives. He is based in Miami, Florida.
+              </p>
             </div>
           </div>
         </FadeInSection>
