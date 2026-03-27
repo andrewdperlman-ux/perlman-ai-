@@ -67,43 +67,71 @@ export default function About() {
           <div className="prose prose-invert prose-lg max-w-none">
             <div className="space-y-6 text-slate-400 leading-relaxed">
               <p className="text-xl text-slate-300 font-light">
-                Andrew Perlman is the co-founder and CEO of{' '}
+                Andrew Perlman is a media executive, entrepreneur, and investor whose career spans intellectual property, public markets, digital media, and the creator economy. Each chapter has been defined by the same instinct: identify where technology is reshaping an industry, then build the infrastructure to capture that shift.
+              </p>
+
+              <h3 className="text-white font-semibold text-lg mt-10 mb-4 flex items-center gap-2">
+                <span className="text-blue-400">01</span> Vringo &amp; IP Innovation
+              </h3>
+
+              <p>
+                Andrew served as President and then CEO of{' '}
+                <a href="https://en.wikipedia.org/wiki/Vringo" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  Vringo
+                </a>
+                , a publicly traded intellectual property company on the NYSE. Under his leadership, Vringo prosecuted one of the most closely watched patent cases of its era — a jury trial against Google over search advertising technology that resulted in a verdict finding Google had infringed Vringo&apos;s patents. The court imposed a running royalty on Google&apos;s AdWords system, later enhanced to 6.5% after finding Google&apos;s design-around replicated the infringing elements. Analysts estimated the judgment&apos;s value at over $1 billion.
+              </p>
+
+              <p>
+                Simultaneously, Andrew led Vringo&apos;s global enforcement campaign against ZTE Corporation across twelve countries — including the United Kingdom, Germany, Australia, India, and China — over telecommunications infrastructure patents acquired from Nokia. The campaign resulted in courtroom victories, injunctions, and a $21.5 million settlement. The litigation drew international attention for its scale and complexity, including confrontations with Chinese regulators and courtroom sanctions against opposing counsel.
+              </p>
+
+              <p>
+                The Vringo chapter gave Andrew a deep understanding of how intellectual property, technology platforms, and global markets intersect — and a firsthand education in building and defending value at the highest stakes.
+              </p>
+
+              <h3 className="text-white font-semibold text-lg mt-10 mb-4 flex items-center gap-2">
+                <span className="text-blue-400">02</span> Recurrent Ventures &amp; The Creator Economy
+              </h3>
+
+              <p>
+                In 2018, Andrew co-founded{' '}
                 <a href="https://recurrentventures.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
                   Recurrent Ventures
                 </a>
-                , a Miami-based digital media company he helped launch in 2018.
+                , a Miami-based digital media company built on a thesis that legacy media brands could be transformed into creator-driven businesses. Over seven years as CEO, he led Recurrent through 14 acquisitions — including The Drive, Donut Media, Popular Science, Outdoor Life, Dwell, and BobVila.com — assembling one of the most diverse portfolios in modern digital publishing.
               </p>
 
               <p>
-                Over seven years, Andrew led Recurrent through 14 acquisitions — including The Drive, Donut Media, Popular Science, Outdoor Life, Dwell, and BobVila.com — assembling one of the most diverse portfolios in modern digital publishing. His strategy treats media M&A not as consolidation, but as creative infrastructure for the creator economy.
+                His strategy treats media M&amp;A not as consolidation, but as creative infrastructure for the creator economy. Rather than acquiring brands to harvest their SEO value or cut costs, Andrew builds each property as a platform for creator-led growth. He acquired The Drive from Time Inc. — one of YouTube&apos;s earliest high-production automotive channels — and later brought in Donut Media in 2021, a beloved automotive YouTube channel built around an ensemble &ldquo;cast&rdquo; model rather than a single personality.
               </p>
 
               <p>
-                The approach is distinct: rather than acquiring brands to harvest their SEO value or cut costs, Andrew builds each property as a platform for creator-led growth. He acquired The Drive from Time Inc. — one of YouTube&apos;s earliest high-production automotive channels — and later brought in Donut Media in 2021, a beloved automotive YouTube channel built around an ensemble &ldquo;cast&rdquo; model rather than a single personality.
-              </p>
-
-              <p>
-                That insight — that media brands could scale without a single creator at the center — has become a thesis Andrew applies across the portfolio. He transformed Task & Purpose from a web brand into a thriving YouTube channel, grew the Military Influencer Conference into a major experiential asset, and saw Donut Media events draw 800+ cars and 2,000+ attendees.
-              </p>
-
-              <p>
-                On the technology side, Andrew has been an early mover in applying AI to media operations: using it to catalog thousands of video clips for content remixing, enabling editorial teams to move faster and reach new formats without rebuilding from scratch.
+                That insight — that media brands could scale without a single creator at the center — has become a thesis Andrew applies across the portfolio. He transformed Task &amp; Purpose from a web brand into a thriving YouTube channel, grew the Military Influencer Conference into a major experiential asset, and saw Donut Media events draw 800+ cars and 2,000+ attendees.
               </p>
 
               <blockquote className="border-l-4 border-blue-500 pl-6 my-8 text-slate-300 text-xl font-light italic">
-                &ldquo;YouTube is now overtaking TV. Creator economy is everywhere.&rdquo;
+                &ldquo;YouTube is now overtaking TV. Creator economy is everywhere, not just on your phone.&rdquo;
               </blockquote>
 
+              <h3 className="text-white font-semibold text-lg mt-10 mb-4 flex items-center gap-2">
+                <span className="text-blue-400">03</span> AI &amp; The Future of Media
+              </h3>
+
               <p>
-                Andrew&apos;s current conviction: the creator economy isn&apos;t just a trend — it&apos;s the new architecture of media. Publishers that understand how to adopt creator network DNA, without betting on any single personality, will be the durable media businesses of the next decade.
+                At Recurrent, Andrew has been an early mover in applying AI to media operations — using it to catalog thousands of video clips for content remixing, enabling editorial teams to move faster and reach new formats without rebuilding from scratch.
               </p>
 
               <p>
-                In addition to his work at Recurrent, Andrew is building{' '}
+                His current conviction: AI isn&apos;t replacing media — it&apos;s restructuring it. Publishers that understand how to combine AI infrastructure with creator network DNA, without betting on any single personality, will be the durable media businesses of the next decade.
+              </p>
+
+              <p>
+                Andrew is now building{' '}
                 <a href="https://gridlocal.io" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
                   GridLocal
                 </a>
-                {' '}(gridlocal.io) — an AI-operated local media network that reimagines how communities get their news, combining editorial judgment with AI infrastructure at scale.
+                {' '}— an AI-operated local media network that reimagines how communities get their news, combining editorial judgment with AI infrastructure at scale. It represents the convergence of everything he&apos;s built: the IP rigor of Vringo, the media M&amp;A playbook of Recurrent, and a belief that AI can make quality journalism economically viable at the local level.
               </p>
             </div>
           </div>
@@ -122,34 +150,34 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-4">
             {[
               {
+                icon: '⚖️',
+                title: 'Vringo vs. Google',
+                desc: 'Led patent litigation against Google as CEO of NYSE-listed Vringo. Jury found Google infringed; court imposed enhanced royalties on AdWords. Analysts valued the judgment at over $1 billion.',
+              },
+              {
+                icon: '🌍',
+                title: 'Global IP Enforcement',
+                desc: 'Directed worldwide patent litigation against ZTE across 12 countries using Nokia-acquired telecom patents. Secured courtroom victories, injunctions, and a $21.5M settlement.',
+              },
+              {
                 icon: '📺',
-                title: 'The Drive Acquisition',
-                desc: 'Acquired The Drive from Time Inc. — one of YouTube\'s earliest high-production automotive channels.',
+                title: '14 Media Acquisitions',
+                desc: 'Built Recurrent Ventures through 14 acquisitions — The Drive, Donut Media, Popular Science, Outdoor Life, Dwell, BobVila.com — creating one of digital publishing\'s most diverse portfolios.',
               },
               {
                 icon: '🚗',
-                title: 'Donut Media',
-                desc: 'Acquired Donut Media in 2021. Beloved automotive YouTube channel with ensemble "cast" model. Live events drew 800+ cars and 2,000+ attendees.',
-              },
-              {
-                icon: '⚔️',
-                title: 'Task & Purpose',
-                desc: 'Transformed Task & Purpose from a web brand into a thriving YouTube channel serving the military community.',
-              },
-              {
-                icon: '🎤',
-                title: 'Military Influencer Conference',
-                desc: 'Grew the Military Influencer Conference into a major experiential asset connecting brands with military creators.',
+                title: 'Creator Economy Pioneer',
+                desc: 'Transformed legacy media brands into creator-driven businesses. Donut Media events drew 800+ cars and 2,000+ attendees. Task & Purpose became a thriving YouTube channel.',
               },
               {
                 icon: '🤖',
-                title: 'AI Content Infrastructure',
-                desc: 'Using AI to catalog thousands of video clips for content remixing — pioneering new workflows for media companies.',
+                title: 'AI × Media',
+                desc: 'Early mover in applying AI to media operations — cataloging thousands of video clips for content remixing and building new editorial workflows at scale.',
               },
               {
                 icon: '📍',
                 title: 'GridLocal',
-                desc: 'Currently building GridLocal — an AI-operated local media network bringing high-quality journalism to every neighborhood.',
+                desc: 'Currently building GridLocal — an AI-operated local media network at the intersection of editorial judgment and AI infrastructure.',
               },
             ].map((item, i) => (
               <FadeInSection key={item.title} delay={i * 80}>
