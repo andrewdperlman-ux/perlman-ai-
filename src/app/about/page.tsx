@@ -21,10 +21,11 @@ export default function About() {
             <div className="md:col-span-2 flex justify-center md:justify-start">
               <FadeInSection>
                 <div className="relative">
-                  {/* Gradient avatar */}
-                  <div className="w-56 h-56 rounded-3xl bg-gradient-to-br from-blue-500 via-blue-700 to-violet-800 flex items-center justify-center shadow-2xl shadow-blue-900/40">
-                    <span className="text-7xl font-bold text-white/90 select-none">AP</span>
-                  </div>
+                  <img
+                    src="/headshot.jpg"
+                    alt="Andrew Perlman"
+                    className="w-56 h-56 rounded-3xl object-cover object-top shadow-2xl shadow-blue-900/40"
+                  />
                   {/* Decorative ring */}
                   <div className="absolute -inset-2 rounded-3xl border border-blue-500/20" />
                   <div className="absolute -inset-4 rounded-3xl border border-blue-500/10" />
