@@ -67,11 +67,27 @@ export default function About() {
           <div className="prose prose-invert prose-lg max-w-none">
             <div className="space-y-6 text-slate-400 leading-relaxed">
               <p className="text-xl text-slate-300 font-light">
-                Andrew Perlman is a media executive, entrepreneur, and investor whose career spans intellectual property, public markets, digital media, and the creator economy. Each chapter has been defined by the same instinct: identify where technology is reshaping an industry, then build the infrastructure to capture that shift.
+                Andrew Perlman is a media executive, entrepreneur, and investor whose career spans entertainment licensing, intellectual property, public markets, digital media, and the creator economy. Each chapter has been defined by the same instinct: identify where technology is reshaping an industry, then build the infrastructure to capture that shift.
               </p>
 
               <h3 className="text-white font-semibold text-lg mt-10 mb-4 flex items-center gap-2">
-                <span className="text-blue-400">01</span> Vringo &amp; IP Innovation
+                <span className="text-blue-400">01</span> Classic Media &amp; Digital Licensing
+              </h3>
+
+              <p>
+                Andrew began his career at{' '}
+                <a href="https://en.wikipedia.org/wiki/Classic_Media" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
+                  Classic Media
+                </a>
+                {' '}(now DreamWorks Classics), where he served as Head of Digital and built the company&apos;s digital licensing group from scratch. Classic Media controlled some of the most recognizable character brands in entertainment — Casper the Friendly Ghost, Lassie, The Lone Ranger, Rocky &amp; Bullwinkle, Rudolph the Red-Nosed Reindeer, Frosty the Snowman, VeggieTales, Where&apos;s Waldo, and George of the Jungle, among others.
+              </p>
+
+              <p>
+                Andrew&apos;s work pioneering digital licensing for these iconic properties came at a critical inflection point — when entertainment companies were first grappling with how to monetize legacy IP in digital channels. The experience gave him a foundational understanding of brand value, content licensing, and the intersection of entertainment and technology. Classic Media was later acquired by DreamWorks Animation for $155 million.
+              </p>
+
+              <h3 className="text-white font-semibold text-lg mt-10 mb-4 flex items-center gap-2">
+                <span className="text-blue-400">02</span> Vringo &amp; IP Innovation
               </h3>
 
               <p>
@@ -91,7 +107,7 @@ export default function About() {
               </p>
 
               <h3 className="text-white font-semibold text-lg mt-10 mb-4 flex items-center gap-2">
-                <span className="text-blue-400">02</span> Recurrent Ventures &amp; The Creator Economy
+                <span className="text-blue-400">03</span> Recurrent Ventures &amp; The Creator Economy
               </h3>
 
               <p>
@@ -115,7 +131,7 @@ export default function About() {
               </blockquote>
 
               <h3 className="text-white font-semibold text-lg mt-10 mb-4 flex items-center gap-2">
-                <span className="text-blue-400">03</span> AI &amp; The Future of Media
+                <span className="text-blue-400">04</span> AI &amp; The Future of Media
               </h3>
 
               <p>
@@ -149,6 +165,11 @@ export default function About() {
 
           <div className="grid md:grid-cols-2 gap-4">
             {[
+              {
+                icon: '🎬',
+                title: 'Classic Media / DreamWorks',
+                desc: 'Head of Digital at Classic Media (now DreamWorks Classics). Built the digital licensing group for iconic brands including Casper, Lassie, Rocky & Bullwinkle, and VeggieTales. Company acquired for $155M.',
+              },
               {
                 icon: '⚖️',
                 title: 'Vringo vs. Google',
